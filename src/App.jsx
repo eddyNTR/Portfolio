@@ -1,6 +1,6 @@
-import { Hero } from "./components/Hero/Hero"
 import { Navbar } from "./components/Navbar/Navbar"
 import Fondo from './assets/Fondo.jpg'
+import Contenido from "./components/Contenido/Contenido"
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   return (
     <div style={bgImagen} className="overflow-hidden min-h-screen">
       <Navbar />
-      <Hero />
+      <Contenido/>
     </div>
   )
 }

@@ -54,7 +54,7 @@ export const Navbar = () => {
     }
 
   return (
-    <nav className='fixed top-0 left-0 bg-[rgba(128,0,128,0.3)] w-full backdrop-blur-md z-50'>
+    <nav className='fixed top-0 left-0 bg-[rgba(128,0,128,0.2)] w-full backdrop-blur-md z-50'>
         <div className='flex justify-between  items-center sm:px-12 sm:py-6 px-4 py-3'>
 
             {/*Logo navbar*/}
