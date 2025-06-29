@@ -15,7 +15,11 @@ import apache from '../../assets/apache.png'
 import kotlin from '../../assets/kotlin.svg'
 import android from '../../assets/android studio.svg'
 import figma from '../../assets/figma.svg'
-
+import github from '../../assets/github.svg'
+import teatro from '../../assets/teatro.png'
+import juegos from '../../assets/tienda_juegos.png'
+import municipio from '../../assets/municipio.png'
+import calculadora from '../../assets/calculadora.png'
 
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
@@ -37,10 +41,10 @@ const Contenido = () => {
             SOBRE MI
           </span>
           <p className='py-5 text-white'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt sit natus soluta ipsam et facere, molestias totam inventore corrupti error aliquam a officia itaque enim aut, nam voluptate quasi suscipit ipsa blanditiis praesentium adipisci? Veritatis quo optio modi tenetur ad.
+            Mi nombre es Eddy Noe Torrico Rocha, soy un apasionado del desarrollo web y de aplicaciones de escritorio, donde encuentro un equilibrio perfecto entre creatividad y tecnología. Me encanta transformar ideas en soluciones funcionales y visuales, ya sea creando experiencias interactivas en la web o desarrollando software robusto para el escritorio. Mi objetivo es seguir aprendiendo y perfeccionando mis habilidades, siempre con el enfoque de crear herramientas que sean útiles y accesibles para los usuarios.
           </p>
           <div className='flex justify-center gap-4'>
-            <a href="" className='bg-purple-600 py-2 px-6 rounded-3xl text-white hover:bg-purple-800 transition-all duration-300 items-center cursor-pointer'>
+            <a href="https://github.com/eddyNTR" target="_blank" rel="noopener noreferrer" className='bg-purple-600 py-2 px-6 rounded-3xl text-white hover:bg-purple-800 transition-all duration-300 items-center cursor-pointer'>
               github 
               <i className="bi bi-git text-xl ml-2"></i>
             </a>
@@ -146,6 +150,133 @@ const Contenido = () => {
         <span className='text-white text-4xl flex justify-center'>
           Mis Proyectos
         </span>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-10 sm:p-10 md:p-15 lg:p-30 xl:p-36'>
+          <article className='bg-white rounded-2xl shadow-sm h-[340px] overflow-hidden'>
+            <img src={municipio} alt="proyecto 1" className='h-[180px] w-full object-cover' />
+            <div className='flex gap-4 p-6'>
+              <img src={Logo} alt="Logo" className='w-10 h-10'/>
+              <div>
+                <h2 className='font-bold text-xl'>Pagina municipio</h2>
+                <p className='text-xs text-[#757575] font-light'>lenguajes: HTML, CSS</p>
+              </div>
+            </div>
+              {/*Contenido de la tarjeta */}
+            <div className='flex h-[64px] items-center justify-around border-t-[1px] border-[#c0bcbc]'>
+              <div className='grow'>
+                <img src={html} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+                <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <img src={css} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+              <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <a href="https://github.com/eddyNTR/Pagina-municipio.git" target="_blank" rel="noopener noreferrer">
+                  <img src={github} alt="" className='h-10 w-10 mx-auto'/>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className='bg-white rounded-2xl shadow-sm h-[340px] overflow-hidden'>
+            <img src={juegos} alt="proyecto 1" className='h-[180px] w-full object-cover' />
+            <div className='flex gap-4 p-6'>
+              <img src={Logo} alt="Logo" className='w-10 h-10'/>
+              <div>
+                <h2 className='font-bold text-xl'>Pagina Tienda juegos</h2>
+                <p className='text-xs text-[#757575] font-light'>lenguajes: HTML, CSS, JavaScript</p>
+              </div>
+            </div>
+              {/*Contenido de la tarjeta */}
+            <div className='flex h-[64px] items-center justify-around border-t-[1px] border-[#c0bcbc]'>
+              <div className='grow'>
+                <img src={html} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+                <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <img src={css} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+                <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <img src={javascript} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+              <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <a href="https://github.com/eddyNTR/paginas-web.git" target="_blank" rel="noopener noreferrer">
+                  <img src={github} alt="" className='h-10 w-10 mx-auto'/>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className='bg-white rounded-2xl shadow-sm h-[340px] overflow-hidden'>
+            <img src={calculadora} alt="proyecto 1" className='h-[180px] w-full object-cover' />
+            <div className='flex gap-4 p-6'>
+              <img src={Logo} alt="Logo" className='w-10 h-10'/>
+              <div>
+                <h2 className='font-bold text-xl'>Calculadora</h2>
+                <p className='text-xs text-[#757575] font-light'>lenguajes: HTML, CSS</p>
+              </div>
+            </div>
+              {/*Contenido de la tarjeta */}
+            <div className='flex h-[64px] items-center justify-around border-t-[1px] border-[#c0bcbc]'>
+              <div className='grow'>
+                <img src={html} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+                <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <img src={css} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+                <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <img src={javascript} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+              <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <a href="https://github.com/eddyNTR/paginas-web.git" target="_blank" rel="noopener noreferrer">
+                  <img src={github} alt="" className='h-10 w-10 mx-auto'/>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className='bg-white rounded-2xl shadow-sm h-[340px] overflow-hidden'>
+            <img src={teatro} alt="proyecto 1" className='h-[180px] w-full object-cover' />
+            <div className='flex gap-4 p-6'>
+              <img src={Logo} alt="Logo" className='w-10 h-10'/>
+              <div>
+                <h2 className='font-bold text-xl'>Pagina Teatro</h2>
+                <p className='text-xs text-[#757575] font-light'>Lenguajes: HTML, CSS, JavaScript, Python</p>
+              </div>
+            </div>
+              {/*Contenido de la tarjeta */}
+            <div className='flex h-[64px] items-center justify-around border-t-[1px] border-[#c0bcbc]'>
+              <div className='grow'>
+                <img src={html} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+                <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <img src={css} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+                <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <img src={javascript} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+                <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <img src={python} alt="" className='h-10 w-10 mx-auto'/>
+              </div>
+              <hr className='mx-4 h-4 w-[1px] border-none bg-black/10'/>
+              <div className='grow'>
+                <a href="https://github.com/adrixVic/Dessingg_teatro.git" target="_blank" rel="noopener noreferrer">
+                  <img src={github} alt="" className='h-10 w-10 mx-auto'/>
+                </a>
+              </div>
+            </div>
+          </article>
+
+
+        </div>
         
     </motion.section>
   

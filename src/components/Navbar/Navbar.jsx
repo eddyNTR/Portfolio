@@ -27,15 +27,15 @@ const navbarlinks = [
 const navbarRedes = [
     {
         id: 1,
-        title:"Instagram",
+        title:"Linkedin",
         Link:"#",
-        icon:"bi bi-instagram"
+        icon:"bi bi-linkedin"
     },
     {
         id: 2,
-        title:"TikTok",
+        title:"Github",
         Link:"#",
-        icon:"bi bi-tiktok"
+        icon:"bi bi-git"
     },
     {
         id: 3,
