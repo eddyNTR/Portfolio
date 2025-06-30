@@ -1,22 +1,25 @@
-import { Navbar } from "./components/Navbar/Navbar"
-import Fondo from './assets/Fondo.jpg'
-import Contenido from "./components/Contenido/Contenido"
-
+import { Navbar } from "./components/Navbar/Navbar";
+import Fondo from "./assets/Fondo.jpg";
+import Proyectos from "./components/Proyectos/Proyectos";
+import SobreMi from "./components/SobreMi/SobreMi";
+import MisHabilidades from "./components/MisHabilidades/MisHabilidades";
 
 function App() {
   const bgImagen = {
     backgroundImage: `url(${Fondo})`,
-    backgroundRepear: 'no-repeat',
+    backgroundRepeat: "no-repeat",
     backgroundPosition: "bottom",
     backgroundSize: "Cover",
-    position: "relative"
-  }
+    position: "relative",
+  };
   return (
     <div style={bgImagen} className="overflow-hidden min-h-screen">
       <Navbar />
-      <Contenido/>
+      <SobreMi />
+      <MisHabilidades />
+      <Proyectos />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
