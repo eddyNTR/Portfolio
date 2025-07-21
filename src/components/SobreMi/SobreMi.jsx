@@ -10,7 +10,7 @@ const SobreMi = () => {
   return (
     <motion.div
       id="sobremi"
-      className="grid grid-cols-1 md:grid-cols-2 pt-30"
+      className="grid grid-cols-1 md:grid-cols-2 pt-20"
       variants={slipeUp(0.4)}
       initial="initial"
       animate="animate"
@@ -25,6 +25,7 @@ const SobreMi = () => {
         <span className="text-white flex justify-center text-2xl">
           SOBRE MI
         </span>
+
         <p className="py-5 text-white">
           Mi nombre es Eddy Noe Torrico Rocha, soy un apasionado del desarrollo
           web y de aplicaciones de escritorio, donde encuentro un equilibrio

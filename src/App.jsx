@@ -7,8 +7,10 @@ import MisHabilidades from "./components/MisHabilidades/MisHabilidades";
 function App() {
   const bgImagen = {
     backgroundImage: `url(${Fondo})`,
+
     backgroundRepeat: "no-repeat",
     backgroundPosition: "bottom",
+
     backgroundSize: "Cover",
     position: "relative",
   };

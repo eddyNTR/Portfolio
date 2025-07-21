@@ -25,7 +25,7 @@ const Contenido = () => {
       <span id="proyectos" className="text-white text-4xl flex justify-center">
         Mis Proyectos
       </span>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-10 sm:p-10 md:p-15 lg:p-30 xl:p-36">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-10 sm:p-10 md:p-15 lg:p-20 xl:p-25">
         <article className="bg-white rounded-2xl shadow-sm h-[340px] overflow-hidden">
           <img
             src={municipio}
