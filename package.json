@@ -1,6 +1,5 @@
 {
   "name": "protfolio",
-  "homepage": "https://eddyNTR.github.io/Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d bist"
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
